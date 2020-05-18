@@ -11,6 +11,7 @@ spec:
     app: podinfo
   ports:
   - name: http
-    port: 31297
+    port: 9898
+    NodePort: 31297
     protocol: TCP
     targetPort: http
